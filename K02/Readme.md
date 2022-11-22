@@ -21,7 +21,7 @@ der den Zugriff auf die Daten durch den Code ausserhalb dieses Schildes verunmö
   ***
 
 #### **Information Hiding:**
-
+Es gibt einen Uterschied zwischen Daten Verbergen und Verbergen von Infomation. Dieses Konzept wurde zum erstenmal im Jahr 1972 von David Parnas eingeführt. Dieses Konzept dient dazu um Informationen vom Benutzer zu isolieren. 
 ***
 
 #### **Getter & Setter:**
@@ -62,3 +62,72 @@ Der Output wäre Real Madrid
 ***
 
 #### **Delegation:**
+Delegation => Delegierung 
+
+Mit der Delegation ist das Ziel: 
++ Das Reduzierung der Abhängigkeit der Methoden von ihrer Klasse
++ Komponenten, die sich einheitlich verhalten, wobei man sich darüber im Klaren ist, dass sich diese Situation in Zukunft ändern kann.
++ Wenn man die Funktionalität einer anderen Klasse nutzen müssen, diese aber nicht ändern wollen, verwenden Sie die Delegation statt der Vererbung.
+
+#####Beispiel:
+
+Zuerst müssen man ein Interface kreieren.
+
+```
+interface Player {
+    public void createPlayer();
+}
+```
+Nachdem dem der Spielr erfolgreich erstellt wurde erstellt man eine Klasse um ein Spieler zu kreieren.
+
+```
+class FootballTeams implements Player {
+  //createPlayer is from the interface
+    public void createPlayer() {
+        System.out.println("Player was created");
+    }
+}
+```
+Man kann eine weitere Klasse erstellen. 
+
+```
+class BestPlayerOfTheWorld implements Player {
+    public void createPlayer() {
+        System.out.println(" best player was created");
+    }
+}
+```
+PlayerCreate stellt eine Implementierung von TravelBooking bereit. 
+```
+class PlayerCreate implements Player {
+
+    Player P;
+
+    public PlayerCreate(Player P) {
+        this.P = P;
+    }
+
+    // Delegation --- Here create player responsibility 
+    // is delegated to other class using polymorphism
+
+    public void createPlayer() {
+        P.createPlayer();
+    }
+}
+```
+Zu nächst wird die **Main** Klasse erstellt um das ganze zusammenzufügen.
+
+```
+public class Main {
+
+    public static void main(String[] args) {
+     // Here PlayerCreate class is internally 
+     // delegating Teams Player responsibility to other class
+         PlayerCreate player = new PlayerCreate(new FootballTeams ());
+         player.FootballTeams();
+
+         player = new PlayerCreate(new BestPlayerOfTheWorld());
+         player.createPlayer();
+    }
+}
+```
