@@ -4,15 +4,7 @@
 Encapsulation => Datenkapselung
 
 Datenverkapselung ist definiert als die Zusammenfassung von Daten in einer einzigen Einheit.
-Es ist der Prozess, der den Code und die Daten, die er bearbeitet, miteinander verbindet.
-Man kann die Encapsulation auch als einen Schutzschild ansehen 
-der den Zugriff auf die Daten durch den Code ausserhalb dieses Schildes verunmöglicht. Das heisst man verhindert das man Daten oder Informationen von aussen zugreiffen kann. 
-
-**Zugriffsarten**
-*public (+) :* Zugriff auf alle Objekte
-*privat (-) :* Nur für Objekte der eigenen Klasse zugreifbar
-*protected (#) :* Zugänglich nur für Objekte der eigenen Klasse von Klassen, die von dieser Klasse abgeleitet sind. 
-*package (~) :* Erlaubt den Zugriff für alle Elemente innerhalb des eigenen Pakets
+Es ist der Prozess, der den Code und die Daten, die er bearbeitet, miteinander verbindet. 
 
 **Vorteile und Nachteile**
   **+ :**  Da die Implementierung einer -Klasse anderen Klassen nicht bekannt ist, kann die Implementierung geändert werden , ohne die Interaktion der anderen Klassen zu unterbrechen.
@@ -21,7 +13,15 @@ der den Zugriff auf die Daten durch den Code ausserhalb dieses Schildes verunmö
   ***
 
 #### **Information Hiding:**
-Es gibt einen Uterschied zwischen Daten Verbergen und Verbergen von Infomation. Dieses Konzept wurde zum erstenmal im Jahr 1972 von David Parnas eingeführt. Dieses Konzept dient dazu um Informationen vom Benutzer zu isolieren. 
+Es gibt einen Uterschied zwischen Daten Verbergen und Verbergen von Infomation. Dieses Konzept wurde zum erstenmal im Jahr 1972 von David Parnas eingeführt. Dieses Konzept dient dazu um Informationen vom Benutzer zu isolieren. Man kann die Encapsulation auch als einen Schutzschild ansehen 
+der den Zugriff auf die Daten durch den Code ausserhalb dieses Schildes verunmöglicht. Das heisst man verhindert das man Daten oder Informationen von aussen zugreiffen kann.
+
+
+**Zugriffsarten**
+*public (+) :* Zugriff auf alle Objekte
+*privat (-) :* Nur für Objekte der eigenen Klasse zugreifbar
+*protected (#) :* Zugänglich nur für Objekte der eigenen Klasse von Klassen, die von dieser Klasse abgeleitet sind. 
+*package (~) :* Erlaubt den Zugriff für alle Elemente innerhalb des eigenen Pakets
 ***
 
 #### **Getter & Setter:**
