@@ -13,7 +13,7 @@ Dies sind die Exceptions, die zur **Kompilierzeit** kontrolliert werden. Wenn ei
 
 **Unchecked Exceptions**
 Diese Arten von Exceptions treten während der **Laufzeit** des Programms auf.  Dies sind die Exceptions, die bei der Kompilierung durch den Compiler nicht kontrolliert werden. In Java sind die Exceptions der Klassen Error und Runtime Exception ungeprüfte Exceptions, die durch schlechte Programmierarbeit entstehen.
-
+***
 #### try-catch-finally
 **Java-try**
 Mit der try-Anweisung kann ein Codeblock bestimmt werden, der während der Durchführung auf Fehler überprüft wird.
@@ -43,6 +43,7 @@ catch(Exception e) {
 }
         }
 ```
+***
 #### Auslösen von Exceptions in Java
 **Verwendung des Schlüsselworts Throw**
 Das Java-Schlüsselwort **throw** wird benutzt, um eine Exception ausdrücklich im Code, innerhalb der Funktion oder des Codeblocks zu werfen. Mit dem Schlüsselwort throws können sowohl geprüfte als auch nicht geprüfte Exceptions definiert werden. Mit dem Schlüsselwort throws können jedoch nur geprüfte Exceptions übertragen werden. Throw wird innerhalb der Methode verwendet. Man darf jeweils nur eine Exception auslösen, d.h. es dürfen nicht mehrere Exceptions auftreten.
@@ -71,7 +72,7 @@ output:
 
 
 ![image info](TestThrow_output.png)
-
+***
 **Verwendung des Schlüsselworts Throws**
 **Throws** ist ein Schlüsselwort, das darauf hinweist, dass diese Methode diese Art von Exception auslösen kann. Der Aufrufer muss die Exception mit einem try-catch-Block bearbeiten oder die Exception weiterleiten. Es können sowohl geprüfte als auch ungeprüfte Exceptions ausgelöst werden.
 Mit dem throws-Schlüsselwort kann der Compiler beim Schreiben von Code helfen, der diese Art von Fehler behandelt, aber es verhindert nicht die anormale Beendigung des Programms. Das Schlüsselworts throws ermöglicht auch das dem Auftraggeber der Methode Informationen über die Arten von Exceptions geben, die die Methode auslösen könnte.
