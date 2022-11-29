@@ -29,7 +29,6 @@ private static boolean isRunning = true;
         } while (antwort == 1);
     }
 
-
     public static void printTeams(){
         List<String> footballTeams = new ArrayList<>();
         footballTeams.add("FC Zürich");
@@ -47,7 +46,6 @@ private static boolean isRunning = true;
         footballTeams.add("FC Schaffhausen");
         footballTeams.add("FC Winterthur");
         System.out.println(footballTeams);
-
     }
 
     public static void printPlayers(){
@@ -67,8 +65,6 @@ private static boolean isRunning = true;
         footballPlayers.add("Michael Lang");
         footballPlayers.add("Admir Mehmedi");
         System.out.println(footballPlayers);
-
-
 
     }
 }
