@@ -68,6 +68,8 @@ public class TestThrow {
 }  
 ```
 output:
+
+
 ![image info](TestThrow_output.png)
 
 **Verwendung des Schlüsselworts Throws**
@@ -95,6 +97,8 @@ public class TestThrows {
 }     
 ```
 output:
+
+
 ![image info](TestThrows_output.png)
 
 
