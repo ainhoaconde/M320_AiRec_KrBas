@@ -1,0 +1,13 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8®Ô¾òÉ0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íÑöîûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶áŸç
+S	java:S106"9Replace this use of System.out or System.err by a logger.(°ĞŠæùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íÑöîûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(şñ‚Ÿıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½õŸ÷øÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(–ßÕV
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ºèÃÊ8ûÂ¹òÉ0
+H
+java:S1068"-Remove this unused "isRunning" private field.(±éÎ ıÿÿÿÿ

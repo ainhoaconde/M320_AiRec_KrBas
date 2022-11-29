@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-private static boolean isRunning = true;
+// In der Klasse main.java arbeiten sie mit try-catch, um fehlerhafte eingaben abzufangen. z.B. kannein Benutzer bei einer Zahlen-Eingabe einen Text eingeben, was einen Fehler wirft. Wenn einBenutzer einen fehlerhaften Wert eingibt, soll die Eingabe wiederholt werden, bis sie korrekt ist.Erstellen sie dazu eine neue Methode, die sie wiederverwenden können. Also z.B. soll jedeZahleneingabe, die gleiche Methode verwenden. Die Wiederholung wird in dieser neuen Methodeerstellt.
 
     public static void main(String[] args) {
         int antwort;
@@ -17,6 +17,7 @@ private static boolean isRunning = true;
             Scanner scanchoice = new Scanner(System.in);
             int choiceentry = scanchoice.nextInt();
             if (choiceentry == 1) {
+
                 printTeams();
             } else if (choiceentry == 2) {
                 printPlayers();
@@ -25,10 +26,9 @@ private static boolean isRunning = true;
             }
             System.out.println("----------------------------------------------");
             System.out.println("Wollen Sie weitermachen  1-ja  0-nein");
-             antwort = scanchoice.nextInt();
+            antwort = scanchoice.nextInt();
         } while (antwort == 1);
     }
-
 
     public static void printTeams(){
         List<String> footballTeams = new ArrayList<>();
@@ -47,10 +47,9 @@ private static boolean isRunning = true;
         footballTeams.add("FC Schaffhausen");
         footballTeams.add("FC Winterthur");
         System.out.println(footballTeams);
-
     }
 
-    public static void printPlayers(){
+    public static void printPlayers() {
         List<String> footballPlayers = new ArrayList<>();
         footballPlayers.add("Yannick Brecher");
         footballPlayers.add("Xherdan Shaqiri");
@@ -58,17 +57,8 @@ private static boolean isRunning = true;
         footballPlayers.add("Valon Behrami");
         footballPlayers.add("Breel Embolo");
         footballPlayers.add("Haris Seferovic");
-        footballPlayers.add("Josip Drmic");
-        footballPlayers.add("Denis Zakaria");
-        footballPlayers.add("Fabian Frei");
-        footballPlayers.add("Albian Ajeti");
-        footballPlayers.add("Mario Gavranovic");
-        footballPlayers.add("Remo Freuler");
-        footballPlayers.add("Michael Lang");
-        footballPlayers.add("Admir Mehmedi");
-        System.out.println(footballPlayers);
-
-
+        footballPlayers.add("Granit Xhaka");
+        footballPlayers.add("Blerim Dzemaili");
 
     }
 }
