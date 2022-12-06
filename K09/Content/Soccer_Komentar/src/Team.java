@@ -1,5 +1,6 @@
 
 public class Team {
+    // this is the team class
     private String name;
     private int points;
     private int goals;
@@ -8,6 +9,17 @@ public class Team {
     private int draws;
     private int losses;
 
+    /**
+     * Constructor for the Team class
+     * that takes in the name, points, goals, games played, wins, draws and losses
+     * @param name
+     * @param points
+     * @param goals
+     * @param gamesPlayed
+     * @param wins
+     * @param draws
+     * @param losses
+     */
     public Team(String name, int points, int goals, int gamesPlayed, int wins, int draws, int losses) {
         this.name = name;
         this.points = points;

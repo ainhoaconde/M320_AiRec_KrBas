@@ -14,6 +14,7 @@ public class PlayerTeamManager {
     }
 
 
+
     public void addPlayer(Player Player) throws IllegalArgumentException {
         if (PlayerArray.contains(Player)) {
             System.out.println(Player.getName() + " existiert schon");
