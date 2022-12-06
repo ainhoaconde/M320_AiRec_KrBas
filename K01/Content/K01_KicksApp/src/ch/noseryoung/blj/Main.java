@@ -57,8 +57,20 @@ public class Main {
         footballPlayers.add("Valon Behrami");
         footballPlayers.add("Breel Embolo");
         footballPlayers.add("Haris Seferovic");
+<<<<<<< HEAD
         footballPlayers.add("Granit Xhaka");
         footballPlayers.add("Blerim Dzemaili");
+=======
+        footballPlayers.add("Josip Drmic");
+        footballPlayers.add("Denis Zakaria");
+        footballPlayers.add("Fabian Frei");
+        footballPlayers.add("Albian Ajeti");
+        footballPlayers.add("Mario Gavranovic");
+        footballPlayers.add("Remo Freuler");
+        footballPlayers.add("Michael Lang");
+        footballPlayers.add("Admir Mehmedi");
+        System.out.println(footballPlayers);
+>>>>>>> 87c52706ab353cb41dd0a9e5b62ef3caf1c20c9e
 
     }
 }
