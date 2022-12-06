@@ -18,15 +18,50 @@ public class Menu {
             System.out.println("|\t[4]  - See Players              |");
             System.out.println("+-----------------------------------+");
             Scanner scanchoice = new Scanner(System.in);
-                 choiceentry = scanchoice.nextInt();
+                choiceentry = scanchoice.nextInt();
+
             if (choiceentry == 1) {
-                PTM.inputAddTeam();
+                do{
+                    try {
+                        PTM.inputAddTeam();
+                        choiceentry = 0;
+                    } catch (InputMismatchException e) {
+                        System.out.println("Geben Sie bitte eine Zahl ein");
+                    }
+                }while (choiceentry ==1);
+
             } else if (choiceentry == 2) {
-                PTM.inputAddPlayer();
+                do {
+                    try {
+                        PTM.inputAddPlayer();
+                        choiceentry = 0;
+                    } catch (InputMismatchException e) {
+                        System.out.println("Geben Sie bitte eine Zahl ein");
+                        PTM.inputAddPlayer();
+                    }
+                }while (choiceentry == 2);
             } else if (choiceentry == 3) {
-                PTM.printTeam();
+                do {
+                    try {
+                        PTM.printTeam();
+                        choiceentry = 0;
+                    } catch (InputMismatchException e) {
+                        System.out.println("Geben Sie bitte eine Zahl ein");
+                        PTM.printTeam();
+                    }
+                }while (choiceentry == 3);
             } else if (choiceentry == 4) {
-                PTM.printPlayer();
+                do{
+                try {
+                    PTM.printPlayer();
+                    choiceentry = 0;
+                } catch (InputMismatchException e) {
+                    System.out.println("Geben Sie bitte eine Zahl ein");
+                    PTM.printPlayer();
+                }}while (choiceentry == 4);
+                } else {
+                throw new InputMismatchException("Please enter a number between 1 and 4");
+
             }
             System.out.println("----------------------------------------------");
             System.out.println("Wollen Sie weitermachen  1-ja  0-nein");

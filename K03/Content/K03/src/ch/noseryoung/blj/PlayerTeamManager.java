@@ -61,6 +61,7 @@ public class PlayerTeamManager {
         }
     }
 
+
     public void inputAddTeam() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Name:");

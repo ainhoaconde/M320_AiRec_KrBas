@@ -9,7 +9,6 @@ public class Program {
             menu.menu();
         } catch (InputMismatchException e) {
             System.out.println("Please enter a number between 1 and 4");
-        menu.menu();
     }
 
 }}
