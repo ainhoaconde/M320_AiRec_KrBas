@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
+/**
+ * This class is used to create a team
+ */
 public class PlayerTeamManager {
     ArrayList<Team> TeamArray = new ArrayList<>();
     ArrayList<Player> PlayerArray = new ArrayList<>();
@@ -12,7 +15,11 @@ public class PlayerTeamManager {
         addTeam(new Team("FC Zürich", 69, 1896, 36, 30, 3, 3));
     }
 
-
+    /**
+     * This method thorws an exception if the user enters a plaryer that already exists
+     * @param player
+     * @throws IllegalArgumentException
+     */
     public void addPlayer(Player Player) throws IllegalArgumentException {
         if (PlayerArray.contains(Player)) {
             System.out.println(Player.getName() + " existiert schon");
@@ -20,15 +27,21 @@ public class PlayerTeamManager {
             PlayerArray.add(Player);
         }
     }
-
-    public void addTeam(Team Team)  throws IllegalArgumentException {
+    /**
+     * This method thorws an exception if the user enters a team that already exists
+     * @param team
+     * @throws IllegalArgumentException
+     */
+    public void addTeam(Team Team) throws IllegalArgumentException {
         if (TeamArray.contains(Team)) {
             System.out.println(Team.getName() + " existiert schon");
         } else {
             TeamArray.add(Team);
         }
     }
-
+    /**
+     * This method is used to add a player
+     */
     public void inputAddPlayer() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Name:");
@@ -44,6 +57,9 @@ public class PlayerTeamManager {
         System.out.println("Games Played:");
         int gamesPlayed = sc.nextInt();
 
+        /**
+         * This method is used to add players to the array
+         */
         PlayerArray.add(new Player(name, number, age, position, goals, gamesPlayed));
         PlayerArray.sort(Comparator.comparing(Player::getName));
         for (int i = 0; i < PlayerArray.size(); i++) {
@@ -59,7 +75,9 @@ public class PlayerTeamManager {
             }
         }
     }
-
+    /**
+     * This method is used to add teams
+     */
 
     public void inputAddTeam() {
         Scanner sc = new Scanner(System.in);
@@ -78,6 +96,10 @@ public class PlayerTeamManager {
         System.out.println("Losses:");
         int losses = sc.nextInt();
 
+        /**
+         * This method is used to add teams to the array
+         */
+
         TeamArray.add(new Team(name, points, goals, gamesPlayed, wins, draws, losses));
         TeamArray.sort(Comparator.comparing(Team::getName));
         for (int i = 0; i < TeamArray.size(); i++) {
@@ -94,7 +116,9 @@ public class PlayerTeamManager {
             }
         }
     }
-
+    /**
+     * This method is used to printed a player
+     */
     public void printPlayer() {
         System.out.println("**********************************************");
         System.out.println("                   Players");
@@ -110,8 +134,10 @@ public class PlayerTeamManager {
             System.out.println("----------------------------------------------");
         }
     }
-
-    public void printTeam(){
+    /**
+     * This method is used to printed a team
+     */
+    public void printTeam() {
         System.out.println("**********************************************");
         System.out.println("                    Teams");
         System.out.println("**********************************************");
