@@ -2,19 +2,16 @@ package ch.noseryoung.blj;
 
 public class Player {
     private String name;
-    private int number;
+    private int singlesTitles;
     private int age;
-    private String position;
-    private int goals;
-    private int gamesPlayed;
 
-    public Player(String name, int number, int age, String position, int goals, int gamesPlayed) {
+    private int wins;
+
+    public Player(String name, int singlesTitles, int age, int wins) {
         this.name = name;
-        this.number = number;
         this.age = age;
-        this.position = position;
-        this.goals = goals;
-        this.gamesPlayed = gamesPlayed;
+       this.singlesTitles = singlesTitles;
+       this.wins = wins;
     }
 
     public String getName() {
@@ -25,12 +22,12 @@ public class Player {
         this.name = name;
     }
 
-    public int getNumber() {
-        return number;
+    public int getSinglesTitles() {
+        return singlesTitles;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setSinglesTitles(int singlesTitles) {
+        this.singlesTitles = singlesTitles;
     }
 
     public int getAge() {
@@ -41,27 +38,11 @@ public class Player {
         this.age = age;
     }
 
-    public String getPosition() {
-        return position;
+    public int getWins() {
+        return wins;
     }
 
-    public void setPosition(String position) {
-        this.position = position;
-    }
-
-    public int getGoals() {
-        return goals;
-    }
-
-    public void setGoals(int goals) {
-        this.goals = goals;
-    }
-
-    public int getGamesPlayed() {
-        return gamesPlayed;
-    }
-
-    public void setGamesPlayed(int gamesPlayed) {
-        this.gamesPlayed = gamesPlayed;
+    public void setWins(int wins) {
+        this.wins = wins;
     }
 }

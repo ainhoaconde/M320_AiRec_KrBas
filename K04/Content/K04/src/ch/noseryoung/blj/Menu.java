@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {
-    static PlayerTeamManager PTM = new PlayerTeamManager();
+   /* static PlayerTeamManager PTM = new PlayerTeamManager();
 
     public static void menu() throws InputMismatchException {
         PTM.DemoData();
@@ -67,6 +67,6 @@ public class Menu {
             System.out.println("Wollen Sie weitermachen  1-ja  0-nein");
             antwort = scanchoice.nextInt();
         } while (antwort == 1);
-    }
+    }*/
 
 }
