@@ -37,11 +37,13 @@ public class Menu {
                     try {
                         PTM.inputAddTeam();
                         choiceentry = 0;
+                        // If the user enters a number that is not between 1 and 4, the catch block is executed
                     } catch (InputMismatchException e) {
                         System.out.println("Geben Sie bitte eine Zahl ein");
                     }
+                    // The while loop is used to repeat the try catch block until the user enters a number between 1 and 4
                 } while (choiceentry == 1);
-
+    // If the user enters 2, the method inputAddPlayer() from the PlayerTeamManager class is called
             } else if (choiceentry == 2) {
                 do {
                     try {
@@ -52,6 +54,7 @@ public class Menu {
                         PTM.inputAddPlayer();
                     }
                 } while (choiceentry == 2);
+                // If the user enters 3, the method inputSeeTeams() from the PlayerTeamManager class is called
             } else if (choiceentry == 3) {
                 do {
                     try {
@@ -62,6 +65,7 @@ public class Menu {
                         PTM.printTeam();
                     }
                 } while (choiceentry == 3);
+                // If the user enters 4, the method inputSeePlayers() from the PlayerTeamManager class is called
             } else if (choiceentry == 4) {
                 do {
                     try {
