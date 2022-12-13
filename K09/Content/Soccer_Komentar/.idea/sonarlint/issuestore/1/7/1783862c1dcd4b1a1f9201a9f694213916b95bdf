@@ -1,0 +1,23 @@
+
+{
+java:S1192)"^Define a constant instead of duplicating this literal "Geben Sie bitte eine Zahl ein" 4 times.(úàÛ8ÿ¾Ø†Ï0
+7
+java:S1220""Move this file to a named package.8´í°¶Î0
+p
+java:S3008"NRename this field "PTM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¾ÿ¤øÿÿÿÿ8™ÅØ†Ï0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8¡ÅØ†Ï0
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(êõõñøÿÿÿÿ8µÅØ†Ï0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íÑöîûÿÿÿÿ8ÀÅØ†Ï0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(óÌáİ8ÁÅØ†Ï0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ã„.8ÃÅØ†Ï0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ö•ïüÿÿÿÿ8ÅÅØ†Ï0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒã²úüÿÿÿÿ8ÆÅØ†Ï0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íÑöîûÿÿÿÿ8ÇÅØ†Ï0
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(úàÛ8àÅØ†Ï0
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(úàÛ8ãÅØ†Ï0
+U	java:S106="9Replace this use of System.out or System.err by a logger.(úàÛ8çÅØ†Ï0
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(úàÛ8êÅØ†Ï0
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(½õŸ÷øÿÿÿÿ8óÅØ†Ï0
+T	java:S106T"9Replace this use of System.out or System.err by a logger.(–ßÕV8õÅØ†Ï0
