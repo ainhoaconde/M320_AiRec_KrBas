@@ -3,7 +3,7 @@ package ch.noseryoung.blj;
 import java.util.InputMismatchException;
 
 public class Program {
-    static Menu menu = new Menu();
+   /* static Menu menu = new Menu();
     public static void main(String[] args) {
         try {
             menu.menu();
@@ -11,4 +11,4 @@ public class Program {
             System.out.println("Please enter a number between 1 and 4");
     }
 
-}}
+}*/}

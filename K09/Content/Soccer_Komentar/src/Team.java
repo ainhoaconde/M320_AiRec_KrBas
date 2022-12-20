@@ -14,6 +14,7 @@ public class Team {
      * that takes in the name, points, goals, games played, wins, draws and losses
      *
      * @param name
+     * Der Name des Teams
      * @param points
      * @param goals
      * @param gamesPlayed
