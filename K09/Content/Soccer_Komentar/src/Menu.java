@@ -1,7 +1,7 @@
 // imports the necessary libraries
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
+/**
  * This class is the main menu of the program
  * It contains the main method and the menu method
  * @author: Ainhoa&Krish

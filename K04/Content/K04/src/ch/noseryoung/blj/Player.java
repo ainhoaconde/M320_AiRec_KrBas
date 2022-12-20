@@ -12,9 +12,10 @@ public class Player {
         private int wins;
         private Trainer trainer;
         private Racket racket;
-        //it shows a aggregation between player and racket.
+        //it shows a aggregation between racket and player.
         public Player() {
             racket = new Racket(0.68f, 0.68f, "Wilson");
+            trainer = new Trainer("Paul Annacone", 1.83f);
         }
 
         /**
