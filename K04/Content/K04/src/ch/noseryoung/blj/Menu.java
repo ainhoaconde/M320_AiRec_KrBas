@@ -12,9 +12,9 @@ public class Menu {
         int choiceentry = 0;
         do {
             System.out.println("+-----------------------------------+");
-            System.out.println("|\t[1]  - Create Team              |");
-            System.out.println("|\t[2]  - Create Player            |");
-            System.out.println("|\t[3]  - See Teams                |");
+            System.out.println("|\t[1]  -  Show trounament details |");
+            System.out.println("|\t[2]  -  Shotw Match details      |");
+            System.out.println("|\t[3]  -  Show Player details     |");
             System.out.println("|\t[4]  - See Players              |");
             System.out.println("+-----------------------------------+");
             Scanner scanchoice = new Scanner(System.in);

@@ -5,3 +5,4 @@ public class Tournament {
     private float prizeMoney;
 
 }
+
