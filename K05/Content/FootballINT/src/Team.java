@@ -1,4 +1,11 @@
 public class Team {
-    private String name;
-    private String trophys;
+    String name;
+    String trophys;
+
+    public Team(String name, String trophys) {
+        this.name = name;
+        this.trophys = trophys;
+    }
+
+
 }
