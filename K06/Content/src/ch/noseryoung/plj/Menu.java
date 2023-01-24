@@ -16,16 +16,15 @@ public class Menu {
         Scanner scanchoice = new Scanner(System.in);
         int choiceentry = scanchoice.nextInt();
         if (choiceentry == 1) {
-            inv.createItem("Brot", 2.50);
-            inv.createItem("Milch", 1.50);
-            inv.createItem("Käse", 3.50);
-            inv.createItem("Schokolade", 2.50);
-            inv.createItem("Kaffee", 3.50);
-            inv.createItem("Bier", 2.50);
-            inv.createItem("Wasser", 1.50);
+            inv.createItem("Brot", 2);
+            inv.createItem("Käse", 3);
+            inv.createItem("Schokolade", 2);
+            inv.createItem("Kaffee", 3);
+            inv.createItem("Bier", 2);
+
 
         } else if (choiceentry == 2) {
-            inv.getItems();
+            inv.bubblesort();
         }else if (choiceentry == 3) {
             cont = false;
         }

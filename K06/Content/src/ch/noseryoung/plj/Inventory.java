@@ -25,4 +25,21 @@ public class Inventory {
 
     }
 
-}
+    void bubblesort() {
+        for (int i = 0; i < items.size(); i++) {
+            for (int j = 0; j < items.size() - 1; j++) {
+                if (items.get(j).getPrice() > items.get(j + 1).getPrice()) {
+                    Item temp = items.get(j);
+                    items.set(j, items.get(j + 1));
+                    items.set(j + 1, temp);
+                    System.out.println("Sortiert");
+                    System.out.println("Name: " + items.get(i).getName());
+                    System.out.println("Price: " + items.get(i).getPrice());
+                }
+            }
+        }
+    }
+
+    }
+
+
