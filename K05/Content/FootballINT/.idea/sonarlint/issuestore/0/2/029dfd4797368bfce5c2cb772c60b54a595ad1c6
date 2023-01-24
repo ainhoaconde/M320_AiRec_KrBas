@@ -1,14 +1,16 @@
 
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óè¬¤
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óè¬¤
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óè¬¤
-j	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è•Ûì
-i	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯
-h	java:S116"NRename this field "Age" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ßÄÃûÿÿÿÿ
-V
-java:S5993"9Change the visibility of this constructor to "protected".(Óè¬¤8ƒŒ“÷Û0
-g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(îìˆúýÿÿÿÿ8ƒŒ“÷Û0
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ëãé¨ýÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(û­‡Ü
-S	java:S106"9Replace this use of System.out or System.err by a logger.(â¢÷¡øÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óè¬¤
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óè¬¤
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óè¬¤
+j	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è•Ûì
+i	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯
+h	java:S116"NRename this field "Age" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ßÄÃûÿÿÿÿ
+O
+java:S5993"9Change the visibility of this constructor to "protected".(Óè¬¤
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(îìˆúýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëãé¨ýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(û­‡Ü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(â¢÷¡øÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8§‘Þ™Þ0

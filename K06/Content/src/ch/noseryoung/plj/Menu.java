@@ -22,6 +22,8 @@ public class Menu {
             inv.createItem("Schokolade", 2.50);
             inv.createItem("Kaffee", 3.50);
             inv.createItem("Bier", 2.50);
+            inv.createItem("Wasser", 1.50);
+
         } else if (choiceentry == 2) {
             inv.getItems();
         }else if (choiceentry == 3) {

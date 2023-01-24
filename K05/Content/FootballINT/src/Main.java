@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Person coach = new Coach("John", "Doe", 25);
-        Person player = new Player(2,"Jane", "Doe", 24);
+    
 
 
         Team t1 = new Team("Barca", "Trophy 1");
@@ -20,6 +20,7 @@ public class Main {
         System.out.println("Tema players");
         System.out.println("-------");
         coach.showDetails();
+        Person player;
         player.showDetails();
         System.out.println("-------");
         System.out.println("tema 2 details");
