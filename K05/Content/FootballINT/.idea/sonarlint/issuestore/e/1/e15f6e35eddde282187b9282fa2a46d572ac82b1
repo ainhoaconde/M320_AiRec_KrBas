@@ -1,0 +1,13 @@
+
+g	java:S116"RRename this field "Stadium" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÕÓÒ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÛóñÏ
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(ßäé©
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ëşí
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¹Ä‘
+A
+java:S1068"+Remove this unused "referee" private field.(÷ä…Ë
+C
+java:S1068"(Remove this unused "ball" private field.(ŒØ“­øÿÿÿÿ
+A
+java:S1068"+Remove this unused "Stadium" private field.(éÕÓÒ
